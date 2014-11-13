@@ -1,0 +1,25 @@
+<h1>Random alias urlshortner</h1>
+
+<%= form_for(:randomUrl, url: go_create_path) do |f| %>
+
+
+  <!-- <div class="field">
+    <%= f.label :alias %><br>
+    <%= f.text_field :alias %>
+  </div> -->
+  <div class="field">
+    <%= f.label :http %><br>
+    <%= f.text_field :http %>
+  </div>
+  <!-- <div class="field">
+    <%= f.label :UUID %><br>
+    <%= f.text_field :UUID %>
+  </div>
+  <div class="field">
+    <%= f.label :user_id %><br>
+    <%= f.number_field :user_id %>
+  </div> -->
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

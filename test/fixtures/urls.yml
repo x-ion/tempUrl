@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  alias: MyString
+  http: MyString
+  UUID: MyString
+  user_id: 1
+
+two:
+  alias: MyString
+  http: MyString
+  UUID: MyString
+  user_id: 1
