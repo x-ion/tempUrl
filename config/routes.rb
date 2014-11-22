@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :users
+
   get 'go' => 'urls#new'
 
   get 'go/:alias' => 'go#show'
